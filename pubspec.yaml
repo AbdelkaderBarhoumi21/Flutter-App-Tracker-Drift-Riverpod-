@@ -1,0 +1,31 @@
+name: app_tracker_riverpood_sqlite
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flex_color_scheme: ^8.3.1
+  easy_date_timeline: ^2.0.9
+  hooks_riverpod: ^3.0.3
+  flutter_hooks: ^0.21.3+1
+  drift_flutter: ^0.2.7
+  rxdart: ^0.28.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  drift_dev: ^2.29.0
+  build_runner: ^2.7.1
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
